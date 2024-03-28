@@ -1,0 +1,61 @@
+:root {
+    --primary-light-red: hsl(0, 100%, 67%);
+    --primary-orangey-yellow: hsl(39, 100%, 56%);
+    --primary-green-teal: hsl(166, 100%, 37%);
+    --primary-cobalt-blue: hsl(234, 85%, 45%);
+
+    --gradients-light-slate-blue-background: hsl(252, 100%, 67%);
+    --gradients-light-royal-blue-background: hsl(241, 81%, 54%);
+    --gradients-violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --gradients-persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+    --netural-white: hsl(0, 0%, 100%);
+    --netural-blue: hsl(221, 100%, 96%);
+    --netural-light-lavender: hsl(241, 100%, 89%);
+    --netural-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    
+}
+
+.block-blue {
+    margin: 0 auto;
+    background: linear-gradient(to top, var(--gradients-light-royal-blue-background), var(--gradients-light-slate-blue-background));
+    min-height: 350px;
+    border: 1px solid;
+    border-radius: 0px 0px 32px 32px; 
+}
+
+.circle {
+    
+    width: 135px;
+    border-radius: 50%;
+    background: linear-gradient(to top, var(--gradients-persian-blue-circle), var(--gradients-violet-blue-circle));
+    margin: auto;
+    place-content: center;
+    aspect-ratio: 1/1;
+}
+
+.block-white-wrapper {
+    padding-inline: 30px;
+}
+
+.block-white {
+    margin: 0 auto;
+    background-color: var(--netural-white);
+    min-height: 450px;
+}
+
+.child-block-white > *:not(:last-child) {
+    margin-block-end: 1rem;
+}
+
+.sections {
+    border-radius: 12px;
+}

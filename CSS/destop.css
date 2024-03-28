@@ -1,0 +1,70 @@
+@media (min-width: 740px) {
+    .wrapper {
+        display: flex;
+        margin: 5rem auto;
+        max-width: 740px;
+        box-shadow: 13px 6px 30px hsla(252, 100%, 67%, 0.176);
+        border-radius: 30px;
+    }
+
+    .block-blue { 
+    max-width: 370px;
+        height: 512px;
+        border-radius: 30px;
+    }
+
+    .circle {
+        width: 200px;
+        margin-top: 35px;
+    }
+
+    .block-blue h3 {
+        font-size: 1.4rem;
+        margin-top: 2.2rem;
+    }
+
+    .block-blue .circle span {
+        font-size: 4.5rem;
+    }
+
+    .block-blue .infos h2 {
+        font-size: 2rem;
+    }
+
+    .block-blue .infos h4 {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .block-white {
+        padding-inline: 12px;
+    }
+
+    .block-white-wrapper {
+        height: 512px;
+    }
+
+    .block-white h3 {
+        font-size: 1.4rem;
+        margin-top: 35px;
+    }
+
+    .child-block-white {
+        margin-top: 30px;
+    }
+
+    .sections {
+        height: 55px;
+        min-width: 250px;
+    }
+
+    #section-5 {
+        margin-top: 40px;
+    }
+    .right-section {
+        font-size: 1.1rem;
+    }
+
+    .left-section {
+        font-size: 1.1rem;
+    }
+}

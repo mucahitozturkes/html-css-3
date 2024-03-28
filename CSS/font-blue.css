@@ -1,0 +1,51 @@
+.block-blue {
+    color: var(--netural-white);
+}
+
+.block-blue h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: Hanken Grotesk;
+    opacity: 0.7;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.block-blue .circle {
+    text-align: center;
+    font-family: Hanken Grotesk; 
+    display: block;
+}
+
+.block-blue .circle span {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.block-blue .circle h2 {
+    font-size: 1rem;
+    opacity: 0.4;
+    margin: 0 auto;
+}
+
+.block-blue .infos {
+    font-family: Hanken Grotesk;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.block-blue .infos h2 {
+    font-weight: 500;
+}
+
+.block-blue .infos h4 {
+    font-weight: 500;
+    opacity: 0.5;
+    padding-inline: 50px;
+    margin-top: -10px;
+}
+
